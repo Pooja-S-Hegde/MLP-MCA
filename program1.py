@@ -1,4 +1,4 @@
-wheels=int(input("Enter no of wheels:"))
+wheels=int(input("Enter number of wheels:"))
 
 if wheels==2:
     print("It's likely a bike or scooter")
