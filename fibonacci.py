@@ -15,4 +15,4 @@ else:
     if c==n:
         print("yes,it is Fibonacci number")
     else:
-        print("no")
+        print("No,it is  not a Fibonacci number ")
