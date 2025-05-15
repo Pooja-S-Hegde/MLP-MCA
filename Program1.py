@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 plt.scatter(X_test,y_test,color='blue',label='Actual')
 plt.plot(X_test,y_pred,color='red',linewidth=2,label='Predicted')
 plt.xlabel("Rooms per House")
-
+plt.ylabel("  House Price")
 plt.title("Linear Regression")
 plt.legend()
 plt.show()
