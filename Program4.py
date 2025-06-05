@@ -1,5 +1,5 @@
 import pandas as pd
-data=pd.read_csv("C:/Users/HP/Downloads/iris_naivebayes.csv")
+data=pd.read_csv("Datasets/iris_naivebayes.csv")
 print(data.head())
 print(data.isnull().sum())
 print(data.info())

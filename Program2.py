@@ -1,17 +1,20 @@
 import pandas as pd
-data=pd.read_csv("C:/Users/pr he/OneDrive/Desktop/coding files/MLP-MCA/iris.csv")
+data=pd.read_csv("Datasets/iris.csv")
 print(data.head())
 print(data.tail())
 print(data.isnull().sum())
 X=data.drop("target",axis=1)
 y=data["target"]
+
 from sklearn.preprocessing import StandardScaler
 Scalar=StandardScaler()
 x_scaled=Scalar.fit_transform(X)
 print("Features preprocessed")
+
 from sklearn.model_selection import train_test_split
 X_train,X_test,y_train,y_test=train_test_split(x_scaled,y,test_size=0.2,train_size=0.8,random_state=58)
 print("Data spit successful")
+
 from sklearn.linear_model import LogisticRegression
 model=LogisticRegression()
 model.fit(X_train,y_train)
