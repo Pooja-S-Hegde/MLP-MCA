@@ -1,3 +1,5 @@
+#Program to demonstrate linear regression
+
 import pandas as pd
 data=pd.read_csv("C:/BostonHousing_pgm1.csv")
 print(data.head())

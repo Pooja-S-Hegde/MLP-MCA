@@ -1,3 +1,5 @@
+#Program to implement Hierarchical Clustering
+
 import pandas as pd
 from scipy.spatial import distance_matrix
 from scipy.stats import obrientransform

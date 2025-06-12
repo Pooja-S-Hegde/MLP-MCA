@@ -1,3 +1,5 @@
+#Program to implement Naive Bayes Algorithm to classify
+
 import pandas as pd
 data=pd.read_csv("Datasets/iris_naivebayes.csv")
 print(data.head())
